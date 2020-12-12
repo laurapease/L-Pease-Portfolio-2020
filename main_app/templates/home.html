@@ -1,8 +1,50 @@
 {% extends 'base.html' %}
+
+
+{% block title %}
+Home
+{% endblock %}
+
 {% block content %}
 
 <h1>Laura Pease</h1>
 <hr />
 <p>Full Stack Web Developer</p>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+        <div class="card">
+            <img src="/static/images/Roadie Relief.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Roadie Relief</h5>
+                <p class="card-text">Final project for General Assembly Software Engineering Immersive Program. Roadie Relief is a job finder and networking site for out of work touring crew members.</p>
+                            <a href src="">Link to Site</a>
+
+            <a href="https://github.com/laurapease/Final-Project">Github</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <img src="/static/images/Wayfarer.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Wayfarer</h5>
+                <p class="card-text">Wayfarer is a place for users to share their world, learn about the world around them, and find the world they have yet to see. This was a group project for General Assembly's Software Engineering Immersive course.</p>
+            <a href src="https://github.com/laurapease/GA-Wayfarer-Project">Github</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card">
+            <img src="/static/images/seen.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">seen</h5>
+                <p class="card-text">seen was created as a partner project for the General Assembly Software Engineering Immersive course. It is a site for users to share photos of their favorite places around the world.</p>
+            <a href src="https://github.com/laurapease/GA-Project1">Github</a>
+            </div>
+        </div>
+    </div>
+    
+</div>
 
 {% endblock %}
