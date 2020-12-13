@@ -7,9 +7,14 @@ Home
 
 {% block content %}
 
-<h1>Laura Pease</h1>
+<h1 class="name">Laura Pease</h1>
 <hr />
-<p>Full Stack Web Developer</p>
+<p class="title">Full Stack Web Developer</p>
+
+<div class="brand"><p>As a Tour Manager turned Web Developer, I have translated my experience in team and large-scale event management into
+that of web development. My previous career has given me experience with problem-solving, communication, and
+multi-tasking under pressure. I bring my strong work ethic and detail-oriented nature to fulfill the needs of clients
+and create new and interesting products.</p></div>
 
 <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
@@ -30,7 +35,8 @@ Home
             <div class="card-body">
                 <h5 class="card-title">Wayfarer</h5>
                 <p class="card-text">Wayfarer is a place for users to share their world, learn about the world around them, and find the world they have yet to see. This was a group project for General Assembly's Software Engineering Immersive course.</p>
-            <a href src="https://github.com/laurapease/GA-Wayfarer-Project">Github</a>
+            <a href="https://github.com/laurapease/GA-Wayfarer-Project">Github</a>
+            <a href="https://project2-wayfair.herokuapp.com/">Link to Site</a>
             </div>
         </div>
     </div>
@@ -40,11 +46,24 @@ Home
             <div class="card-body">
                 <h5 class="card-title">seen</h5>
                 <p class="card-text">seen was created as a partner project for the General Assembly Software Engineering Immersive course. It is a site for users to share photos of their favorite places around the world.</p>
-            <a href src="https://github.com/laurapease/GA-Project1">Github</a>
+            <a href="https://github.com/laurapease/GA-Project1">Github</a>
             </div>
         </div>
     </div>
     
 </div>
+<section class="page" id="contact-page">
+
+    <h3>Get in touch!</h3>
+<div class="row">
+            <div class="col-xs-8 col-xs-offset-2 text-center columns icon-container">
+    <a href="mailto:laurapeasetm@gmail.com"><img class="icon" alt="Email icon"
+            src="/static/images/envelope-fill.svg"></a>
+    <a href="https://github.com/laurapease"><img class="icon" alt="Github icon" src="/static/images/github.svg"></a>
+    <a href="https://linkedin.com/in/laurapease"><img alt="LinkedIn icon" class="icon"
+            src="/static/images/linkedin.svg"></a>
+</div>
+</div>
+   </section>
 
 {% endblock %}

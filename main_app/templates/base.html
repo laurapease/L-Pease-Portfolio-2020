@@ -18,8 +18,11 @@
 
 <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
     
-<!-- CSS only -->
-
+<!--Imported fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pragati+Narrow&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -31,7 +34,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar w/ text</a>
+        <a class="navbar-brand" href="#">Laura Pease</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,17 +42,14 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="https://github.com/laurapease">Github</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="https://linkedin.com/in/laurapease">LinkedIn</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
+                
             </ul>
             <span class="navbar-text">
-                Navbar text with an inline element
             </span>
         </div>
     </div>
@@ -57,27 +57,16 @@
 
 
 
-    <header class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper">
-                <ul>
-                    <li><a href="/" class="left brand-logo">Laura Pease</a></li>
-                </ul>
-                <ul class="right">
-                    <li><a href="/about">About</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="https://linkedin.com/in/laurapease">LinkedIn</a></li>
-                    <li><a href="https://github.com/laurapease">Github</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    
     <main class="container">
         {% block content %}
         {% endblock %}
     </main>
     <footer class="page-footer">
-        <div class="right">2020 Laura Pease &nbsp;</div>
+            
+            
+            <p id="copyright">&copy Laura Pease 2020</p>
+        </div>
     </footer>
 </body>
 
